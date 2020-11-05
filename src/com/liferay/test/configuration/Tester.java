@@ -12,7 +12,7 @@ public class Tester {
 		ComponentProperties props = conf.getProperties();
 
 		String name = props.getString("tester.name");
-
+		System.out.println("hi");
 		System.out.println("Tester name: " + name);
 	}
 
